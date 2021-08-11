@@ -1,0 +1,23 @@
+#container
+{
+    border: dashed red 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div>p
+{
+    color: Black;
+    margin: 0px;
+    border-color: red;
+    text-align: center;
+    font-family:cursive;
+    font-size: 28px;
+    background-color: rgb(42, 148, 121);
+    width: 25%;
+    height: 100%;
+}
+div>p:hover
+{
+    cursor: pointer;
+}
+
