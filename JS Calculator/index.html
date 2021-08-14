@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" name="" id="">   
+        <table>
+            <tr>
+                <td onclick="add('(')">(</td>
+                <td onclick="add(')')">)</td>
+                <td >←</td>
+                <td class="operand" onclick="add('/')">/</td>
+            </tr>
+            <tr>
+                <td onclick="add('7')">7</td>
+                <td onclick="add('8')">8</td>
+                <td onclick="add('9')">9</td>
+                <td class="operand" onclick="add('*')">*</td>
+            </tr>
+            <tr>
+                <td onclick="add('4')">4</td>
+                <td onclick="add('5')">5</td>
+                <td onclick="add('6')">6</td>
+                <td class="operand" onclick="add('-')">-</td>
+            </tr>
+            <tr>
+                <td onclick="add('1')">1</td>
+                <td onclick="add('2')">2</td>
+                <td onclick="add('3')">3</td>
+                <td class="operand" onclick="add('+')">+</td>
+            </tr>
+            <tr>
+                <td onclick="add('')">c</td>
+                <td onclick="add('0')">0</td>
+                <td onclick="add('.')">.</div></td>
+                <td class="operand" onclick="result()">=</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
