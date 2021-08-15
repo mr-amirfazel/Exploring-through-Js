@@ -13,6 +13,7 @@ body
     width: 400px;
     background-color: rgb(5, 5, 5);
     box-shadow: 0 20px 40px rgba(0.0.0.0.1);
+    border-radius: 14px;
 }
 table{
     border-collapse: collapse;
@@ -44,6 +45,7 @@ input
     /* margin-bottom: 21px; */
     font-size: 2em;
     text-align: right;
+    border-radius: 14px;
 }
 .operand
 {
