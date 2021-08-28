@@ -8,4 +8,4 @@
 
 ### [JS Games folder](https://github.com/mr-amirfazel/Exploring-through-Js/tree/main/JS%20Games "Named link title")
    simple mini games made by JavaScript in order to learn libraries,functions,events,etc 
-![Amirfazel's GitHub stats](https://github-readme-stats.vercel.app/api?username=mr-amirfazel&theme=dark&show_icons=true)
+
