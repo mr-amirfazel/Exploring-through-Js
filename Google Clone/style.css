@@ -1,0 +1,28 @@
+:root{
+    --gray:#c5c6c7;
+    --red:rgb(255, 0, 0);
+    --black:rgb(10, 9, 9);
+}
+
+
+#searchfield{
+    border: 0.03rem solid var(--gray) ;
+    padding: 0 .4rem;
+}
+.links{
+    background: var(--gray);
+    list-style: none;
+    margin: 0 0;
+}
+.link{
+    font-size: .8em;
+    display: inline-block;
+   margin: 20px;
+    color:var(--red);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.link:hover{
+    transform: scale(1.3) translateX(.8rem);
+    color: black;
+}
